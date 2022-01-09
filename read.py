@@ -1,0 +1,5 @@
+stream = open('.\demo.txt','wt')
+print('\nIs this readable' + str(stream.readable()))
+print('\nRead one character:'+ stream.read(1))
+print('\nRead to end of the line :' + stream.readline())
+print('\nRead all lines to the end of the file :\n' + str(stream.readlines()))
